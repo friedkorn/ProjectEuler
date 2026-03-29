@@ -4,9 +4,6 @@
 using namespace std;
 using ll= long long int;
 
-#include <bits/stdc++.h>
-using namespace std;
-
 bool isPal(int x) {
     string s = to_string(x);
     string p = string(s.rbegin(),s.rend());
